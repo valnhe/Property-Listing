@@ -56,4 +56,9 @@
    .switch input[type="checkbox"]:checked:active + .slider::after {
     transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));
    }
+
+   .active {
+    background-color: #4A5567;
+    border-radius: 10px;
+   }
    
