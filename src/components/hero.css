@@ -1,0 +1,20 @@
+header {
+    background-image: url("/images/hero-image.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) {
+    header {
+        background-size: cover;
+    }
+    
+}
